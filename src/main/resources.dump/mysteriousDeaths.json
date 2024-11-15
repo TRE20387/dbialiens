@@ -1,0 +1,16 @@
+[
+  {
+    "_id": {"$oid": "000000000000000000000001"},
+    "location": "Neusiedl am See",
+    "date": "2022-10-24",
+    "witness": "John Doe",
+    "description": "A bright light in the sky."
+  },
+  {
+    "_id": {"$oid": "000000000000000000000002"},
+    "location": "Wien",
+    "date": "2022-11-01",
+    "witness": "Jane Smith",
+    "description": "A strange object hovering."
+  }
+]

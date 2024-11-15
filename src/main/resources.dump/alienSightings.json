@@ -1,0 +1,18 @@
+[
+  {
+    "_id": {"$oid": "000000000000000000000001"},
+    "sightingID": 1,
+    "personName": "Alice Johnson",
+    "causeOfDeath": "Unknown",
+    "date": "2022-10-25",
+    "location": "Neusiedl am See"
+  },
+  {
+    "_id": {"$oid": "000000000000000000000002"},
+    "sightingID": 2,
+    "personName": "Bob Brown",
+    "causeOfDeath": "Heart attack",
+    "date": "2022-11-02",
+    "location": "Wien"
+  }
+]
