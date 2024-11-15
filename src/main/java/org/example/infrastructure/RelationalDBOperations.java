@@ -37,7 +37,7 @@ public class RelationalDBOperations {
              ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
                 sightings.add(new AlienSighting(
-                        new ObjectId(rs.getString("id")),
+                        new ObjectId(rs.getString("SightingID")),
                         rs.getString("location"),
                         rs.getDate("date").toLocalDate(),
                         rs.getString("witness"),

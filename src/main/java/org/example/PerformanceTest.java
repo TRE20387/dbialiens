@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class PerformanceTest {
-    private static final String MONGO_URI = "mongodb://root:1234@localhost:27017/aliensDb";
+    private static final String MONGO_URI = "mongodb://root:1234@localhost:27017/aliensDb?authMechanism=SCRAM-SHA-256";
     private static final String RELATIONAL_DB_URL = "jdbc:mysql://localhost:3306/relationalDb";
     private static final String RELATIONAL_DB_USER = "root";
     private static final String RELATIONAL_DB_PASSWORD = "allebasi1505";
